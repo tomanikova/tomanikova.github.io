@@ -104,3 +104,8 @@ h1{font-size:44px;line-height:1.02}
 @media(min-width:1440px){.hero{min-height:690px}.hero-copy{width:55%}h1{font-size:78px}.hero-photo{width:52%}}
 @media(max-width:359px){.wrap{width:calc(100% - 32px)}.brand{font-size:16px}.site-header nav a{font-size:13px;padding-inline:6px}.hero{padding-top:224px}.hero-photo{height:250px}.hero-copy{padding:22px 16px 30px}h1{font-size:39px}.hero-copy::before{left:16px}.candidacy{font-size:17px}.hero-message{font-size:18px}.site-footer{flex-direction:column;gap:8px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+.maintenance main{min-height:100vh;min-height:100svh;display:grid;place-items:center;padding:40px 20px;text-align:center}
+.maintenance h1{font-size:36px;line-height:1.2}
+.maintenance .gold-rule{margin:24px auto}
+.maintenance p{font-size:18px;color:var(--muted)}
+@media(min-width:600px){.maintenance h1{font-size:48px}}
